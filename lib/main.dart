@@ -20,7 +20,7 @@ void main() async {
   await Supabase.initialize(
     url: 'https://bhnvknbfimtalosfczcf.supabase.co',
     anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJobnZrbmJmaW10YWxvc2ZjemNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU2NDY5MTEsImV4cCI6MjA2MTIyMjkxMX0.VnqpdKHjYBzXR1qMJ_H7ACOtxVhCdZBQATYTcp9u-OA',
+        '<supabase base key',
     authOptions: const FlutterAuthClientOptions(
       authFlowType: AuthFlowType.pkce,
     ),

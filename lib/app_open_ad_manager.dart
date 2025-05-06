@@ -9,7 +9,7 @@ class AppOpenAdManager {
   void loadAd() {
     AppOpenAd.load(
       adUnitId:
-          'ca-app-pub-8355736208842576/5376859843', // Replace with your actual Ad Unit ID
+          'ca-app-pub-xxxxxxxxxxxxx/xxxxxxx', // Replace with your actual Ad Unit ID
       request: const AdRequest(),
       adLoadCallback: AppOpenAdLoadCallback(
         onAdLoaded: (ad) {
